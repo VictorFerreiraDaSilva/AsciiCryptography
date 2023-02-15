@@ -23,17 +23,30 @@
     </div>
     <div class="encrypt">
       <h3>Encrypt:</h3>
-      <textarea></textarea><br /><br />
-      <button type="button">Convert</button>
-      <h3>Result:</h3>
-      <p>12384984635168746413216849648654132</p>
+      <textarea id="textEncrypt"></textarea><br /><br />
+      <input
+        type="submit"
+        id="btnEncrypt"
+        value="Convert"
+        onclick="encrypt()"
+        class="btn"
+      />
+      <h4>Result:</h4>
+      <textarea id="encrypted"></textarea>
     </div>
+    <br /><br />
     <div class="decrypt">
-      <h3>Decrypt:</h3>
-      <textarea></textarea><br /><br />
-      <button type="button">Convert</button>
-      <h3>Result:</h3>
-      <p>Hello World!</p>
+      <h3>Encrypt:</h3>
+      <textarea id="textDecrypt"></textarea><br /><br />
+      <input
+        type="submit"
+        id="btnDecrypt"
+        value="Convert"
+        onclick="decrypt()"
+        class="btn"
+      />
+      <h4>Result:</h4>
+      <textarea id="decrypted"></textarea>
     </div>
     <script src="script.js"></script>
   </body>
